@@ -1,0 +1,5 @@
+bash-4.2$ more /sbin/lspci
+
+******** /sbin/lspci: Not a text file ********
+
+bash-4.2$ ls > lspci.txt

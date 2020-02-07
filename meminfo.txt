@@ -1,4 +1,3 @@
-bash-4.2$ more /proc/meminfo
 MemTotal:       24509020 kB
 MemFree:         4086224 kB
 MemAvailable:   15467328 kB
@@ -44,5 +43,3 @@ HugePages_Surp:        0
 Hugepagesize:       2048 kB
 DirectMap4k:      332388 kB
 DirectMap2M:    24823808 kB
-bash-4.2$ #ls > meminfo.txt
-bash-4.2$ ls > meminfo.txt

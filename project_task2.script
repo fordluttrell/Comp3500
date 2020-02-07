@@ -1,0 +1,7 @@
+Script started on Thr 06 Feb 2020 09:20:22 PM CST
+ [?10355hbash-4.2$ more /proc/cu  [Kpuinfo > cpuinfo.txt
+bash-4.2$ more /proc/meminfo > mm  [Kemion  [K  [Knfo.txt
+bash-4.2$ more /sbin/lsc   [Kpci > lspci.txt
+bash-4.2$ more /proc/interuppts  [K  [K  [K   [Krupts.  [K=   [Ks > interrupts.txt
+bash-4.2$ exit
+Script done on Thr 06 Feb 2020 09:21:40 PM CST

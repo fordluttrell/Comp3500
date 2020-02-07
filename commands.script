@@ -1,0 +1,59 @@
+Script started on THR 06 Feb 2020 08:33:40 PM CST
+[?1034hbash-4.2$ mac [Kn rm
+[?1049h [?1h =
+RM(1)                            User Commands                           RM(1) [m
+ [m
+ [1mNAME [0m [m
+       rm - remove files or directories [m
+ [m
+ [1mSYNOPSIS [0m [m
+        [1mrm [0m [ [4mOPTION [24m]...  [4mFILE [24m... [m
+ [m
+ [1mDESCRIPTION [0m [m
+       This  manual  page  documents  the  GNU version of  [1mrm [0m.   [1mrm [0m removes each [m
+       specified file.  By default, it does not remove directories. [m
+ [m
+       If the  [4m-I [24m or  [4m--interactive=once [24m option is given,  and  there  are  more [m
+       than  three  files  or  the   [4m-r [24m,   [4m-R [24m, or  [4m--recursive [24m are given, then  [1mrm [0m [m
+       prompts the user for whether to proceed with the entire operation.   If [m
+       the response is not affirmative, the entire command is aborted. [m
+ [m
+       Otherwise,  if  a file is unwritable, standard input is a terminal, and [m
+       the  [4m-f [24m or  [4m--force [24m  option  is  not  given,  or  the   [4m-i [24m  or   [4m--interac‐ [24m [m
+        [4mtive=always [24m  option is given,  [1mrm [0m prompts the user for whether to remove [m
+       the file.  If the response is not affirmative, the file is skipped. [m
+ [m
+ [1mOPTIONS [0m [m
+ [7m Manual page rm(1) line 1 (press h for help or q to quit) [27m K
+ [K [?1l > [?1049lbash-4.2$ 
+ [Kbosh-4.2$ cd comp3500
+bash-4.2$ pwd
+/home/u3/fal0002/comp3500
+bash-4.2$ ls
+file1.txt  file2.txt  project1	project23700
+bash-4.2$ mkdir newdir
+bash-4.2$ cp file1.txt newdir
+bash-4.2$ mv file2.txt newdir
+bash-4.2$ cd newdir
+bash-4.2$ ls
+file1.txt  file2.txt
+bash-4.2$ rm file2.txt
+bash-4.2$ ls
+file1.txt 
+bash-4.2$ cd
+bash-4.2$ ls
+commands.script  comp3500  ntuser.cmd
+bash-4.2$ cd comp3500
+bash-4.2$ ls
+file1.txt  newdir  project1  project23700
+bash-4.2$ rmdir rmo  [K  [KemoveThis
+bash-4.2$ ls
+file1.txt  newdir  project1
+bash-4.2$ cd newdir
+bash-4.2$ ls
+file1.txt
+bash-4.2$ chmod u+rw,og=r        [1P [1@+  [1P [1@= [C [C [C [C [C [C [C [C      [C [C  [1P  [1P [1@g [1@o [C [C [C  f  i  l  e 1  .  t  x  t  
+bash-4.2$ clear
+exit
+
+Script done on Sat 01 Feb 2020 08:50:26 PM CST
